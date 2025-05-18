@@ -1,10 +1,8 @@
-export interface CardProps {
+// interfaces/index.ts
+export interface Listing {
+  id: string;
   title: string;
   description: string;
-  image: string;
+  imageUrl: string;
 }
 
-export interface ButtonProps {
-  label: string;
-  onClick: () => void;
-}
