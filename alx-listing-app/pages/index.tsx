@@ -13,3 +13,4 @@ export default function Home() {
     </>
   );
 }
+// This is a simple Next.js page that serves as the homepage for the ALX Listing App.

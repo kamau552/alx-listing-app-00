@@ -14,3 +14,4 @@ export const Button: React.FC<ButtonProps> = ({ label, onClick }) => (
     {label}
   </button>
 );
+//src="/template.svg"
