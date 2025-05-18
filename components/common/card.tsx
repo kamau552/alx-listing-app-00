@@ -2,14 +2,20 @@ import React from 'react';
 
 interface CardProps {
   title: string;
-  description: string;
+  description?: string;
+  imageUrl?: string;
+  children?: React.ReactNode;
 }
 
-const Card: React.FC<CardProps> = ({ title, description }) => {
+const Card: React.FC<CardProps> = ({ title, description, imageUrl, children }) => {
   return (
-    <div className="border p-4 rounded shadow-md bg-white">
-      <h2 className="text-lg font-semibold">{title}</h2>
-      <p className="text-gray-600">{description}</p>
+    <div className="border rounded-lg shadow-md p-4 bg-white">
+      {imageUrl && (
+        <img src={imageUrl} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />
+      )}
+      <h2 className="text-xl font-semibold mb-2">{title}</h2>
+      {description && <p className="text-gray-600 mb-2">{description}</p>}
+      {children}
     </div>
   );
 };
