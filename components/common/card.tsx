@@ -5,9 +5,13 @@ interface CardProps {
   description: string;
 }
 
-export const Card: React.FC<CardProps> = ({ title, description }) => (
-  <div className="p-4 border rounded shadow-md">
-    <h2 className="text-xl font-semibold">{title}</h2>
-    <p>{description}</p>
-  </div>
-);
+const Card: React.FC<CardProps> = ({ title, description }) => {
+  return (
+    <div className="border p-4 rounded shadow-md bg-white">
+      <h2 className="text-lg font-semibold">{title}</h2>
+      <p className="text-gray-600">{description}</p>
+    </div>
+  );
+};
+
+export default Card;
