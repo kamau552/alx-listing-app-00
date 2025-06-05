@@ -7,12 +7,32 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
+<<<<<<< HEAD
 interface AuthButtonsProps {
   onSignIn?: () => void;
   onSignUp?: () => void;
   className?: string;
   variant?: 'default' | 'mobile';
 }
+=======
+export const AuthButtons = () => {
+  return (
+    <div className="flex items-center space-x-4">
+      {/* Sign In Button - Teal */}
+      <button className="flex items-center rounded-full space-x-2 bg-teal-600 text-white hover:text-teal-800 font-light py-2 px-4">
+          <title>Sign In</title>
+          <span>Sign In</span>
+      </button>
+
+      {/* Sign Up Button - Purple */}
+      <button className="flex items-center border rounded-full space-x-2 text-black hover:text-teal-800 font-medium py-2 px-4">
+          <title>Sign up</title>
+          <span>Sign Up</span>
+      </button>
+    </div>
+  );
+};
+>>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
 
 export const Button: React.FC<ButtonProps> = ({ label, onClick }) => (
   <button
@@ -22,6 +42,7 @@ export const Button: React.FC<ButtonProps> = ({ label, onClick }) => (
   </button>
 );
 
+<<<<<<< HEAD
 
 export const AuthButtons: React.FC<AuthButtonsProps> = ({ className, variant = 'default' }) => {
   return (
@@ -52,3 +73,6 @@ export const AuthButtons: React.FC<AuthButtonsProps> = ({ className, variant = '
 };
 
 export default Button;
+=======
+export default Button;
+>>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31

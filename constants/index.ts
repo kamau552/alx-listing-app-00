@@ -363,6 +363,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     discount: "",
   },
 ];
+<<<<<<< HEAD
 
 export const footerLinks = [
   {
@@ -391,3 +392,5 @@ export const footerLinks = [
     ]
   }
 ];
+=======
+>>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31

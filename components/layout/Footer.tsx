@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import Image from "next/image";
 import Link from "next/link";
 import { footerLinks } from "@/constants";
@@ -88,3 +89,18 @@ const Footer = () => {
   );
 };
 export default Footer;
+=======
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-100 py-8">
+      <div className="container mx-auto px-4">
+        {/* Footer content */}
+        <p>© 2023 Your Company</p>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
+>>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31

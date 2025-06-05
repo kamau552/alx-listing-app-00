@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
 export interface Address {
   state: string;
   city: string;
