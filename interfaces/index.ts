@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-
-
-=======
->>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
+export interface PillProps {
+  title: string;
+  styles?: string;
+}
 export interface Address {
   state: string;
   city: string;
@@ -17,12 +16,25 @@ export interface Offers {
 
 export interface PropertyProps {
   name: string;
-  address: Address;
+  address: {
+    state: string;
+    city: string;
+    country: string;
+  };
   rating: number;
   category: string[];
   price: number;
-  offers: Offers;
+  offers: {
+    bed: string;
+    shower: string;
+    occupants: string;
+  };
   image: string;
-  discount?: string;
+  discount: number;
 }
 
+
+
+export interface PropertyCardProps {
+  data: PropertyProps;
+}

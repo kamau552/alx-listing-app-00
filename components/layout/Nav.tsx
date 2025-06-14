@@ -4,7 +4,7 @@ import "@/styles/globals.css"; // Ensure global styles are imported
 
 const Nav = () => {
   return (
-    <nav className="w-full mb-6 max-w-[1440px] mx-auto items-center">
+    <nav className="w-full mb-6 max-w-[1440px] mx-auto items-center pl-7 pr-7.5">
         <div className="flex items-center justify-between px-6">
           <div className="flex overflow-x-hidden scrollbar-hide space-x-5 py-2">
             {[

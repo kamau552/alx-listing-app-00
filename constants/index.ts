@@ -17,8 +17,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6",
     },
-    image: "https://example.com/image1.jpg",
-    discount: "",
+    image: "/assets/Images/List 1.png",
+    discount: 0,
   },
   {
     name: "Mountain Escape Chalet",
@@ -35,8 +35,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "https://example.com/image2.jpg",
-    discount: "30",
+    image: "/assets/Images/image 3.png",
+    discount: 30,
   },
   {
     name: "Cozy Desert Retreat",
@@ -53,8 +53,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "https://example.com/image3.jpg",
-    discount: "",
+    image: "/assets/Images/image 6.png",
+    discount: 0,
   },
   {
     name: "City Lights Penthouse",
@@ -71,8 +71,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "2-4",
     },
-    image: "https://example.com/image4.jpg",
-    discount: "15",
+    image: "/assets/Images/image 7.png",
+    discount: 15,
   },
   {
     name: "Riverside Cabin",
@@ -89,8 +89,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "4-6",
     },
-    image: "https://example.com/image5.jpg",
-    discount: "20",
+    image: "/assets/Images/image 22.png",
+    discount: 20,
   },
   {
     name: "Modern Beachfront Villa",
@@ -107,8 +107,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "8-10",
     },
-    image: "https://example.com/image6.jpg",
-    discount: "",
+    image: "/assets/Images/image 9.png",
+    discount: 0,
   },
   {
     name: "Lakeside Chalet",
@@ -125,8 +125,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "https://example.com/image7.jpg",
-    discount: "10",
+    image: "/assets/Images/image 12.png",
+    discount: 10,
   },
   {
     name: "Tropical Garden Villa",
@@ -143,8 +143,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "5-6",
     },
-    image: "https://example.com/image8.jpg",
-    discount: "25",
+    image: "/assets/Images/image 17.png",
+    discount: 25,
   },
   {
     name: "Urban Loft",
@@ -161,8 +161,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "https://example.com/image9.jpg",
-    discount: "",
+    image: "/assets/Images/image 18.png",
+    discount: 0,
   },
   {
     name: "Secluded Forest Cabin",
@@ -179,8 +179,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "https://example.com/image10.jpg",
-    discount: "40",
+    image: "/assets/Images/image 3.png",
+    discount: 40,
   },
   {
     name: "Cliffside Villa",
@@ -197,8 +197,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "6-8",
     },
-    image: "https://example.com/image11.jpg",
-    discount: "50",
+    image: "/assets/Images/List 12.png",
+    discount: 50,
   },
   {
     name: "Coastal Escape Villa",
@@ -215,8 +215,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6",
     },
-    image: "https://example.com/image12.jpg",
-    discount: "",
+    image: "/assets/Images/image 24.png",
+    discount: 0,
   },
   {
     name: "Historical Villa",
@@ -233,8 +233,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "2-4",
     },
-    image: "https://example.com/image13.jpg",
-    discount: "35",
+    image: "/assets/Images/List 14.png",
+    discount: 35,
   },
   {
     name: "Downtown Apartment",
@@ -251,8 +251,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2",
     },
-    image: "https://example.com/image14.jpg",
-    discount: "",
+    image: "/assets/Images/List 13.png",
+    discount: 0,
   },
   {
     name: "Luxury Safari Lodge",
@@ -269,8 +269,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "4",
       occupants: "6-8",
     },
-    image: "https://example.com/image15.jpg",
-    discount: "20",
+    image: "/assets/Images/List 4.png",
+    discount: 20,
   },
   {
     name: "Countryside Cottage",
@@ -287,8 +287,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-4",
     },
-    image: "https://example.com/image16.jpg",
-    discount: "25",
+    image: "/assets/Images/List 10.png",
+    discount: 25,
   },
   {
     name: "Riverfront Mansion",
@@ -305,8 +305,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "6-8",
     },
-    image: "https://example.com/image17.jpg",
-    discount: "30",
+    image: "/assets/Images/image 17.png",
+    discount: 30,
   },
   {
     name: "Ski Chalet",
@@ -323,8 +323,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "https://example.com/image18.jpg",
-    discount: "",
+    image: "/assets/Images/image 18.png",
+    discount: 0,
   },
   {
     name: "Island Paradise Villa",
@@ -341,8 +341,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "5",
       occupants: "8-10",
     },
-    image: "https://example.com/image19.jpg",
-    discount: "60",
+    image: "/assets/Images/image 21.png",
+    discount: 60,
   },
   {
     name: "Clifftop Retreat",
@@ -359,11 +359,11 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-5",
     },
-    image: "https://example.com/image20.jpg",
-    discount: "",
+    image: "/assets/Images/image 4.png",
+    discount: 0,
   },
 ];
-<<<<<<< HEAD
+
 
 export const footerLinks = [
   {
@@ -392,5 +392,4 @@ export const footerLinks = [
     ]
   }
 ];
-=======
->>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
+

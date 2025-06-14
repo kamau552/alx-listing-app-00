@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import 'tailwindcss';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-
-<<<<<<< HEAD
-
 .profile-dropdown {
   transition: all 0.3s ease;
 }
-=======
->>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.scroll-container {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 transparent;
+}

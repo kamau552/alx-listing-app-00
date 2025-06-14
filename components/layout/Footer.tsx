@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import Image from "next/image";
 import Link from "next/link";
 import { footerLinks } from "@/constants";
@@ -31,22 +30,24 @@ const Footer = () => {
 
         {/* Links Sections */}
         {footerLinks.map((section) => (
-          <div key={section.title} className="space-y-4 md:flex flex-col">
-            <h3 className="text-white font-semibold uppercase text-sm tracking-wider">
-              {section.title}
-            </h3>
-            <ul className="space-y-2">
-              {section.links.map((link) => (
-                <li key={link.title}>
-                  <Link
-                    href={link.url}
-                    className="text-sm hover:text-white transition-colors"
-                  >
-                    {link.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div key={section.title}>
+            <div className="space-y-4 md:flex flex-col">
+              <h3 className="text-white font-semibold uppercase text-sm tracking-wider">
+                {section.title}
+              </h3>
+              <ul className="space-y-2">
+                {section.links.map((link) => (
+                  <li key={link.title}>
+                    <Link
+                      href={link.url}
+                      className="text-sm hover:text-white transition-colors"
+                    >
+                      {link.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         ))}
       </div>
@@ -89,18 +90,3 @@ const Footer = () => {
   );
 };
 export default Footer;
-=======
-
-const Footer = () => {
-  return (
-    <footer className="bg-gray-100 py-8">
-      <div className="container mx-auto px-4">
-        {/* Footer content */}
-        <p>© 2023 Your Company</p>
-      </div>
-    </footer>
-  )
-}
-
-export default Footer
->>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31

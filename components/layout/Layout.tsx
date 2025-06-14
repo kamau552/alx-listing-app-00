@@ -2,11 +2,11 @@ import React from "react";
 import "@/styles/globals.css";
 import Header from "./Header";
 import Footer from "./Footer";
-<<<<<<< HEAD
 import Hero from "./Hero";
+import Searchfilter from "./Searchfilter";
+import Listings from "@/components/layout/Listings";
 
-=======
->>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
+
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -15,22 +15,19 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col">
-<<<<<<< HEAD
-      <main className="flex-grow">{children}</main>
       <Header />
+      <div className="sm:hidden">
+        <Searchfilter />
+      </div>
       <Hero />
-    
+       <div className="hidden sm:block">
+        <Searchfilter />
+      </div>
+      <main className="flex-grow">{children}</main>
+      <Listings />
       <Footer />
     </div>
   );
 };
-=======
-      <Header />
-      <main className="flex-grow">{children}</main>
-      <Footer />
-    </div>
-  )
-}
->>>>>>> be3e7638178049007babb2ab895a6faf38ec3c31
 
-export default Layout
+export default Layout;
